@@ -2,6 +2,10 @@
 
 Notebooks, input data, saved fits and figures for *Topologically and physically constrained geological modelling with Learnable Diffeomorphic Interpolation*.
 
+![Method figure](00_method/figures/00_method.png)
+
+*Method figure ([`00_method/figures/00_method.pdf`](00_method/figures/00_method.pdf)).*
+
 Each example is one folder. The notebooks run in order: make or load the data, fit, then draw. Saved results are included, so a figure can be redrawn without fitting again. Folders are numbered as in the paper; there is no example 02.
 
 ```
