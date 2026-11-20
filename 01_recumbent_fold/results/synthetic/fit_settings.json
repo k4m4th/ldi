@@ -1,0 +1,60 @@
+{
+  "lsr_nf": [
+    987.3689731521758,
+    3949.4758926087034
+  ],
+  "lsr_ldi": [
+    987.3689731521758,
+    3949.4758926087034
+  ],
+  "n_features": 256,
+  "n_features_ldi": 256,
+  "modes_per_octave": 128,
+  "band_info": {
+    "m0": null,
+    "m2": 1.3544707255474664,
+    "m4": 5.484921392403393e-05,
+    "lambda_x": 987.3689731521758,
+    "lambda_0": null,
+    "normal": [
+      -0.26142865581734426,
+      0.9652228022159116
+    ],
+    "normal_from_contacts": false,
+    "resolved": false,
+    "lambda_x_error": null,
+    "n_curvature": 9.529411764705882,
+    "window": null,
+    "contact_noise": null,
+    "n_eff": 1.0000000000000002,
+    "n_bedding": 8,
+    "n_contacts": 14,
+    "n_pairs": 10,
+    "n_windows": 0,
+    "n_horizons_spanning": 0,
+    "profile": false,
+    "diameter": 1027.7482096227357,
+    "strain": null
+  },
+  "n_directions": 32,
+  "fourier_seed": 42,
+  "depth_axis": 1,
+  "iq_samples": 16,
+  "weights": {
+    "grad_loss": "1e0",
+    "eq_loss": "1e-1"
+  },
+  "epochs_nf": 3000,
+  "epochs_ldi": 2000,
+  "n_steps": 0,
+  "integrator": "shear",
+  "lr_adam_nf": 0.05,
+  "nf_freq_damp": 0.0,
+  "lr_adam": 0.005,
+  "init_std": 0,
+  "energy_normalised": true,
+  "lr_sgd": 0.1,
+  "amp_momentum": 0.9,
+  "spectral_warmup": false,
+  "warmup_ramp": 0.16666666666666666
+}

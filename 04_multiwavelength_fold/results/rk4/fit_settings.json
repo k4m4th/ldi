@@ -1,0 +1,50 @@
+{
+  "integrator": "rk4",
+  "n_steps": 5,
+  "lsr": [
+    65.05445214376279,
+    1597.0237567604743
+  ],
+  "n_features": 592,
+  "n_directions": 16,
+  "modes_per_octave": 128,
+  "band_info": {
+    "m0": 378.51395879989036,
+    "m2": 0.5080893688620468,
+    "m4": 0.004739644812865671,
+    "lambda_x": 65.05445214376279,
+    "lambda_0": 171.49472431099332,
+    "normal": [
+      0.025581949214795237,
+      0.9996727283838305
+    ],
+    "normal_from_contacts": true,
+    "resolved": true,
+    "lambda_x_error": 0.24108544876863736,
+    "n_curvature": 100.56857855361594,
+    "window": 15.32425363397151,
+    "contact_noise": 0.6895106763929618,
+    "n_eff": 1.0,
+    "n_bedding": 50,
+    "n_contacts": 1090,
+    "n_pairs": 1,
+    "n_windows": 109,
+    "n_horizons_spanning": 5,
+    "profile": false,
+    "diameter": 1597.0237567604743,
+    "strain": null
+  },
+  "fourier_seed": 404,
+  "epochs": 2000,
+  "weights": {
+    "grad_loss": "0.01",
+    "eq_loss": "1."
+  },
+  "iq_samples": 64,
+  "energy_normalised": true,
+  "init_std": 0.0,
+  "lr_adam": 0.005,
+  "lr_sgd": 0.1,
+  "amp_momentum": 0.9,
+  "spectral_warmup": false
+}

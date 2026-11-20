@@ -1,0 +1,39 @@
+{
+ "comparison": {
+  "extrema": {
+   "maximum": 2,
+   "minimum": 21,
+   "saddle": 88,
+   "degenerate": 0
+  },
+  "younging_deg_median": 0.0,
+  "younging_deg_max": 8.537736462515939e-07,
+  "fraction_reversed": 0.0,
+  "fit_seconds": 0.5172866252250969,
+  "n_fit": 2466,
+  "held_out_m_median_per_horizon": [
+   3.1885471766325373,
+   2.959139091804502,
+   4.988776765189719,
+   23.134214685420673
+  ],
+  "fit_m_median": 1.5071960199295737e-08,
+  "fit_m_p90": 9.0482162457369e-08,
+  "held_out_m_median": 5.0442700876633015,
+  "held_out_m_p90": 37.58465909461818
+ },
+ "parameters": {
+  "sampling": "seismic",
+  "cutoff": 0.4,
+  "lines": {
+   "n_x": 5,
+   "n_y": 5,
+   "half_width": 20.0
+  },
+  "kernel": "r3",
+  "poly_order": 1,
+  "smoothing": 0,
+  "interfaces": "one free equality per horizon (Lajaunie); labels only group points",
+  "fault": "not used"
+ }
+}

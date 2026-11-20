@@ -1,0 +1,95 @@
+{
+  "seed": 404,
+  "n_ensemble": 20,
+  "ensemble_seeds": [
+    404,
+    35034316,
+    1318916082,
+    1609356072,
+    1813334947,
+    43736948,
+    1380621865,
+    210014305,
+    1258900537,
+    1656886435,
+    984003558,
+    761171587,
+    1174349671,
+    1914556445,
+    16222087,
+    196147228,
+    1032755117,
+    1134035495,
+    456463966,
+    1773101392
+  ],
+  "lsr": [
+    50.55262897816973,
+    475.9814663637141
+  ],
+  "n_features": 448,
+  "n_directions": 64,
+  "modes_per_octave": 128,
+  "band_info": {
+    "m0": 9.986017702026691,
+    "m2": 1.453280165802231,
+    "m4": 0.022450271181521732,
+    "lambda_x": 50.55262897816973,
+    "lambda_0": null,
+    "normal": [
+      0.2108128321921312,
+      -0.6988408427456286,
+      0.6835052496460521
+    ],
+    "normal_from_contacts": true,
+    "resolved": true,
+    "lambda_x_error": 0.4427219558432831,
+    "n_curvature": 406.8657061720138,
+    "window": 10.862892757313839,
+    "contact_noise": 0.28764229914243306,
+    "n_eff": 1.0,
+    "n_bedding": 147,
+    "n_contacts": 2724,
+    "n_pairs": 185,
+    "n_windows": 563,
+    "n_horizons_spanning": 3,
+    "profile": true,
+    "diameter": 475.9814663637141,
+    "curvature_modes": null,
+    "orientations_only": false,
+    "strain": null
+  },
+  "n_steps": 0,
+  "integrator": "shear",
+  "epochs": 2000,
+  "weights": {
+    "grad_loss": "1.",
+    "eq_loss": "0.1"
+  },
+  "energy_biased": true,
+  "lr_adam": 0.005,
+  "lr_sgd": 0.1,
+  "amp_momentum": 0.9,
+  "init_std": 0.0,
+  "hinge": [
+    0.9755423571035878,
+    0.19493280191445572,
+    -0.10157909349150362
+  ],
+  "hinge_trend_plunge": [
+    78.69998850607595,
+    5.830108959404195
+  ],
+  "pole_wavelength": 5.867970224363869,
+  "anisotropy_scales": [
+    5.867970224363869,
+    1.1334837281213686,
+    1.0
+  ],
+  "grid_step": [
+    5.0,
+    5.0,
+    5.0
+  ],
+  "pad": 20.0
+}

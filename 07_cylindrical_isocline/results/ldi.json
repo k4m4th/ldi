@@ -1,0 +1,32 @@
+{
+ "comparison": {
+  "extrema": {
+   "maximum": 0,
+   "minimum": 0,
+   "saddle": 0,
+   "degenerate": 0
+  },
+  "younging_deg_median": 2.5549792748931837,
+  "younging_deg_mean": 2.7498414924150487,
+  "fraction_reversed": 0.0,
+  "restored_level_sd_m": [
+   12.598564503550193,
+   9.904665829511096,
+   15.438775641189018
+  ],
+  "shortening_pct": 52.545128849694066,
+  "contact_to_model_m_median": 5.536573800204596,
+  "contact_to_model_m_p90": 44.06863281037434,
+  "contact_missed_fraction": 0.0,
+  "isoline_to_truth_m_median": 5.436752530852808,
+  "isoline_to_truth_m_p90": 20.214106381387964,
+  "unit_change_along_hinge_mean": 0.0,
+  "unit_change_along_hinge_lines_affected": 0.0,
+  "hinge_alignment_median": 4.1206500449801916e-17,
+  "hinge_alignment_p95": 1.4914757409042007e-16,
+  "unit_iou_median": [
+   0.6624094065176626,
+   0.6998398077693232
+  ]
+ }
+}

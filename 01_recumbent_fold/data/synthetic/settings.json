@@ -1,0 +1,106 @@
+{
+  "model": "BentFold",
+  "fold": {
+    "base": {
+      "levels": [
+        -100.0,
+        30.0
+      ],
+      "start": [
+        -1500.0,
+        480.0
+      ],
+      "length": 5200.0,
+      "hinges": [
+        [
+          1680.0,
+          20.0,
+          120.0
+        ],
+        [
+          2240.0,
+          -180.0,
+          165.0
+        ],
+        [
+          2960.0,
+          180.0,
+          110.0
+        ]
+      ],
+      "wander": 0.0,
+      "wander_wavelength": 700.0,
+      "thickness": null,
+      "thickness_noise": 0.0,
+      "seed": 3,
+      "ds": 1.0
+    },
+    "bend": {
+      "levels": [
+        0.0,
+        0.0
+      ],
+      "start": [
+        -3000.0,
+        330.0
+      ],
+      "path": [
+        [
+          "line",
+          2600.0
+        ],
+        [
+          "turn",
+          25.0,
+          1500.0
+        ],
+        [
+          "line",
+          100.0
+        ],
+        [
+          "turn",
+          -50.0,
+          1100.0
+        ],
+        [
+          "line",
+          50.0
+        ],
+        [
+          "turn",
+          25.0,
+          1100.0
+        ],
+        [
+          "line",
+          4000.0
+        ]
+      ],
+      "thickness": null
+    }
+  },
+  "inverted": false,
+  "units": {
+    "1": "below rock1 (oldest)",
+    "2": "between rock1 and rock2",
+    "3": "above rock2 (youngest)"
+  },
+  "sampling": {
+    "section_y": 500.0,
+    "box": [
+      0.0,
+      1000.0
+    ],
+    "holes": [
+      100.0,
+      400.0,
+      650.0,
+      800.0
+    ],
+    "ori_dz": 450.0,
+    "contact_clear": 25.0,
+    "noise_z": 0.0,
+    "seed": 7
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sampling": "seismic",
+  "cutoff": 0.4,
+  "lines": {
+    "n_x": 5,
+    "n_y": 5,
+    "half_width": 20.0
+  },
+  "iq_margin": 0.0,
+  "iq_samples": 64,
+  "lsr": [
+    1435.6157751596722,
+    6592.0632357560235
+  ],
+  "modes_per_octave": 256,
+  "band_bedding": "25 readings + contact normals along the lines",
+  "band_info": {
+    "m0": 23319.918946981652,
+    "m2": 0.0468069324334783,
+    "m4": 8.965891372307814e-07,
+    "lambda_x": 1435.6157751596722,
+    "lambda_0": 4434.945596656332,
+    "normal": [
+      -0.04762114838677237,
+      0.022113154469588,
+      0.9986206660317666
+    ],
+    "normal_from_contacts": true,
+    "resolved": true,
+    "lambda_x_error": 0.1539071587404285,
+    "n_curvature": 308.64821316433984,
+    "window": 1312.4886324609145,
+    "contact_noise": 24.887113634513987,
+    "n_eff": 1.902504995597649,
+    "n_bedding": 25,
+    "n_contacts": 2466,
+    "n_pairs": 32,
+    "n_windows": 336,
+    "n_horizons_spanning": 4,
+    "profile": false,
+    "diameter": 6592.0632357560235,
+    "curvature_modes": null,
+    "orientations_only": false,
+    "strain": null
+  },
+  "n_features": 576,
+  "n_directions": 64,
+  "fourier_seed": 42404,
+  "weights": {
+    "grad_loss": "1.",
+    "eq_loss": "1."
+  },
+  "hinge": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "eq_sample": null,
+  "epochs": 5000,
+  "n_steps": 0,
+  "integrator": "shear",
+  "lr_adam": 0.005,
+  "lr_sgd": 0.1,
+  "amp_momentum": 0.9,
+  "init_std": 0.0,
+  "energy_normalised": true,
+  "fault": "not used"
+}

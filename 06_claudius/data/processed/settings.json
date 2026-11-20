@@ -1,0 +1,41 @@
+{
+ "box_utm": [
+  [
+   548876.8105,
+   7816647.43,
+   -11010.0
+  ],
+  [
+   552451.8105,
+   7821846.719,
+   -8400.0
+  ]
+ ],
+ "benchmark_box_utm": [
+  [
+   548800.0,
+   7816600.0,
+   -11010.0
+  ],
+  [
+   552500.0,
+   7822000.0,
+   -8400.0
+  ]
+ ],
+ "clamped_to_picks": true,
+ "step_m": [
+  50.0,
+  50.0,
+  50.0
+ ],
+ "horizons": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "frame": "UTM minus the box centre; z = -3 x two-way time, up",
+ "bedding": "Dips.csv poles negated (younging up)",
+ "fault": "saved, not used by the fits"
+}

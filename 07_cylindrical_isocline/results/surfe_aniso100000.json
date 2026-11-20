@@ -1,0 +1,37 @@
+{
+ "comparison": {
+  "extrema": {
+   "maximum": 8,
+   "minimum": 6,
+   "saddle": 6,
+   "degenerate": 0
+  },
+  "younging_deg_median": 0.0,
+  "younging_deg_mean": 1.0672170578144923e-07,
+  "fraction_reversed": 0.0,
+  "contact_spread_m": [
+   8.442573364203476e-11,
+   1.0876987870964208e-10,
+   2.323500200683427e-08
+  ],
+  "contact_to_model_m_median": 3.9522859868998044,
+  "contact_to_model_m_p90": 17.91938747859568,
+  "contact_missed_fraction": 0.0,
+  "isoline_to_truth_m_median": 4.638171752958488,
+  "isoline_to_truth_m_p90": 19.026225304310223,
+  "unit_change_along_hinge_mean": 0.0,
+  "unit_change_along_hinge_lines_affected": 0.0,
+  "hinge_alignment_median": 1.884482565572036e-09,
+  "hinge_alignment_p95": 8.648744369237977e-09,
+  "unit_iou_median": [
+   0.6938459897610921,
+   0.6409289166568432
+  ]
+ },
+ "parameters": {
+  "anisotropy": 100000.0,
+  "kernel": "r3",
+  "poly_order": 1,
+  "interfaces": "one free equality per horizon (Lajaunie); labels only group points"
+ }
+}

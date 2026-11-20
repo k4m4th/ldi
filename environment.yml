@@ -1,0 +1,22 @@
+# Fresh install is named curlew. Versions match the author's curlew_dev (macOS arm64; torch from pip).
+# curlew itself is installed afterwards from its checkout: pip install -e /path/to/curlew
+name: curlew
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - torch==2.9.1
+      - tqdm==4.67.3
+      - matplotlib==3.10.8
+      - pandas==3.0.1
+      - scipy==1.17.1
+      - cmasher==1.9.2
+      - contourpy==1.3.3
+      - scikit-image==0.26.0
+      - pyvista==0.47.1
+      - vtk==9.6.0
+      - pillow==12.1.1
+      - ipykernel==6.31.0

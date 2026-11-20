@@ -1,0 +1,76 @@
+{
+  "seed": 404,
+  "velocity_seed": 42404,
+  "lsr": [
+    700.0,
+    2336.9693375703528
+  ],
+  "lsr_data_derived": [
+    584.2423343925882,
+    2336.9693375703528
+  ],
+  "n_features": 256,
+  "n_directions": 32,
+  "modes_per_octave": 128,
+  "band_info": {
+    "m0": 17833.84635050669,
+    "m2": 3.1571206859097507,
+    "m4": 0.0003651445935485031,
+    "lambda_x": 584.2423343925882,
+    "lambda_0": null,
+    "normal": [
+      -0.9407519604783487,
+      3.942372556424073e-10,
+      -0.33909548633997366
+    ],
+    "normal_from_contacts": true,
+    "resolved": true,
+    "lambda_x_error": 0.3447048373466924,
+    "n_curvature": 25.688165436354144,
+    "window": null,
+    "contact_noise": null,
+    "n_eff": 1.0000000000000002,
+    "n_bedding": 56,
+    "n_contacts": 102,
+    "n_pairs": 50,
+    "n_windows": 0,
+    "n_horizons_spanning": 3,
+    "profile": true,
+    "diameter": 1200.5280447930777,
+    "curvature_modes": null,
+    "orientations_only": false,
+    "strain": null
+  },
+  "n_steps": 0,
+  "epochs": 3000,
+  "weights": {
+    "grad_loss": "1.",
+    "eq_loss": "0.1"
+  },
+  "iq_samples": 64,
+  "lr_adam": 0.005,
+  "lr_sgd": 0.01,
+  "spectral_warmup": false,
+  "warmup_ramp": 0.16666666666666666,
+  "integrator": "shear",
+  "cylindrical": true,
+  "energy_normalised": true,
+  "init_std": 0.0,
+  "amp_momentum": 0.9,
+  "reference_normal": [
+    -1.0,
+    4.4310118629588214e-10,
+    -2.954620535835611e-20
+  ],
+  "hinge": [
+    4.431011862958822e-10,
+    0.9999999999999999,
+    -6.668049256502449e-11
+  ],
+  "grid_step": 10.0,
+  "sections": [
+    -369.8955696202531,
+    461.6044303797469
+  ],
+  "n_align": 1000
+}

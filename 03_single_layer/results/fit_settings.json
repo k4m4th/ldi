@@ -1,0 +1,87 @@
+{
+  "fourier_seed": 404,
+  "n_features": 160,
+  "n_directions": 32,
+  "length_scale_range": [
+    569.5444271067206,
+    2853.6906106118945
+  ],
+  "modes_per_octave": 64,
+  "band_info": {
+    "m0": null,
+    "m2": 0.04434810133013524,
+    "m4": 5.397337235728747e-06,
+    "lambda_x": 569.5444271067206,
+    "lambda_0": null,
+    "normal": [
+      0.06954938126468403,
+      0.9975785099758813
+    ],
+    "normal_from_contacts": false,
+    "resolved": true,
+    "lambda_x_error": 0.44174897727033885,
+    "n_curvature": 9.187988880987781,
+    "window": 214.7292255965827,
+    "contact_noise": 0.28927161035701565,
+    "n_eff": 1.0,
+    "n_bedding": 10,
+    "n_contacts": 60,
+    "n_pairs": 3,
+    "n_windows": 9,
+    "n_horizons_spanning": 0,
+    "profile": false,
+    "diameter": 988.9816248221628,
+    "strain": {
+      "X_over_Z": 3.4606097470431183,
+      "heterogeneity": 0.5926965812359316,
+      "n_markers": 15,
+      "L_bulk": 2853.6906106118945,
+      "F": [
+        [
+          0.538387289117837,
+          -0.03314984239424423
+        ],
+        [
+          -0.033149842394244226,
+          1.859440095049592
+        ]
+      ]
+    }
+  },
+  "n_steps": 0,
+  "integrator": "shear",
+  "epochs": 2500,
+  "weights": {
+    "grad_loss": "1.",
+    "eq_loss": "0.1"
+  },
+  "strain_weight": "0.01",
+  "iq_samples": 8,
+  "energy_normalised": true,
+  "init_std": 0.0,
+  "lr_adam": 0.005,
+  "lr_sgd": 0.1,
+  "amp_momentum": 0.9,
+  "spectral_warmup": false,
+  "lr_plain": 0.005,
+  "init_std_plain": 0.0,
+  "seed": 404,
+  "n_ensemble": 15,
+  "ensemble_seeds": [
+    35034316,
+    1318916082,
+    1609356072,
+    1813334947,
+    43736948,
+    1380621865,
+    210014305,
+    1258900537,
+    1656886435,
+    984003558,
+    761171587,
+    1174349671,
+    1914556445,
+    16222087,
+    196147228
+  ]
+}

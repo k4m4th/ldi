@@ -1,0 +1,28 @@
+{
+ "comparison": {
+  "extrema": {
+   "maximum": 7,
+   "minimum": 2,
+   "saddle": 22,
+   "degenerate": 0
+  },
+  "younging_deg_median": 0.0,
+  "younging_deg_mean": 2.563768169034364e-08,
+  "fraction_reversed": 0.0,
+  "flatness_m_median": 1.1556524726499013e-09,
+  "flatness_m_max": 1.2347121705667074e-07,
+  "heldout_traces": 2,
+  "heldout_flatness_m_median": 9.842885260406714,
+  "heldout_flatness_m_p90": 13.800993684745702,
+  "heldout_flatness_m_max": 14.790520790830449,
+  "younging_deg_median_test": 21.048917456357696,
+  "younging_deg_p90_test": 35.131565508263314
+ },
+ "parameters": {
+  "kernel": "r3",
+  "poly_order": 1,
+  "global_anisotropy": false,
+  "n_iso": 12,
+  "interfaces": "one free equality per trace (Lajaunie); labels only group points"
+ }
+}

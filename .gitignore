@@ -1,0 +1,15 @@
+# Present in a working copy, omitted from the repository.
+02_recumbent_pericline/
+
+# Blender scene files. The PNG renders, camera.json and scene JSON stay.
+*.blend
+*.blend1
+
+# Copy of the full Hartland photogrammetry cloud for the data-panel render.
+# 05e rebuilds it from HartlandQuay_Devon.ply. The PNG and camera.json stay.
+05_hartland_quay/renders/data/scene/meshes.npz
+
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/

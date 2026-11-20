@@ -1,0 +1,27 @@
+{
+ "comparison": {
+  "extrema": {
+   "maximum": 0,
+   "minimum": 0,
+   "saddle": 0,
+   "degenerate": 0
+  },
+  "younging_deg_median": 1.6244853057155328,
+  "younging_deg_mean": 1.9936733919621272,
+  "fraction_reversed": 0.0,
+  "restored_depth_std_median": 0.5347088575363159,
+  "restored_depth_std_max": 2.0814208984375,
+  "younging_deg_median_cliff": 1.9699078264819383,
+  "younging_deg_median_beach": 1.515350474167923,
+  "younging_deg_median_test": 19.07493423702193,
+  "younging_deg_p90_test": 64.98932432418144,
+  "hinge_bend_deg_median": 0.0,
+  "hinge_bend_deg_max": 0.0,
+  "heldout_traces": 2,
+  "heldout_depth_std_median": 5.382237911224365,
+  "flatness_m_median": 0.6157596861083283,
+  "heldout_flatness_m_median": 4.366363868436481,
+  "heldout_flatness_m_p90": 4.825434307911958,
+  "heldout_flatness_m_max": 4.940201917780827
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "comparison": {
+  "extrema": {
+   "maximum": 0,
+   "minimum": 0,
+   "saddle": 0,
+   "degenerate": 0
+  },
+  "younging_deg_median": 0.04309610649871992,
+  "younging_deg_max": 1.8918332873359358,
+  "fraction_reversed": 0.0,
+  "n_fit": 2466,
+  "isovalues": {
+   "D": -221.95242309570312,
+   "C": 202.3809051513672,
+   "B": 682.1034545898438,
+   "A": 896.1041870117188
+  },
+  "held_out_m_median_per_horizon": [
+   10.693431854248047,
+   11.29509449005127,
+   14.74728012084961,
+   26.915374755859375
+  ],
+  "fit_m_median": 5.349416732788086,
+  "fit_m_p90": 17.155834197998047,
+  "held_out_m_median": 14.310139656066895,
+  "held_out_m_p90": 52.753371047973644
+ },
+ "parameters": {
+  "sampling": "seismic",
+  "cutoff": 0.4,
+  "lines": {
+   "n_x": 5,
+   "n_y": 5,
+   "half_width": 20.0
+  },
+  "iq_margin": 0.0,
+  "iq_samples": 64,
+  "lsr": [
+   1435.6157751596722,
+   6592.0632357560235
+  ],
+  "modes_per_octave": 256,
+  "band_bedding": "25 readings + contact normals along the lines",
+  "band_info": {
+   "m0": 23319.918946981652,
+   "m2": 0.0468069324334783,
+   "m4": 8.965891372307814e-07,
+   "lambda_x": 1435.6157751596722,
+   "lambda_0": 4434.945596656332,
+   "normal": [
+    -0.04762114838677237,
+    0.022113154469588,
+    0.9986206660317666
+   ],
+   "normal_from_contacts": true,
+   "resolved": true,
+   "lambda_x_error": 0.1539071587404285,
+   "n_curvature": 308.64821316433984,
+   "window": 1312.4886324609145,
+   "contact_noise": 24.887113634513987,
+   "n_eff": 1.902504995597649,
+   "n_bedding": 25,
+   "n_contacts": 2466,
+   "n_pairs": 32,
+   "n_windows": 336,
+   "n_horizons_spanning": 4,
+   "profile": false,
+   "diameter": 6592.0632357560235,
+   "curvature_modes": null,
+   "orientations_only": false,
+   "strain": null
+  },
+  "n_features": 576,
+  "n_directions": 64,
+  "fourier_seed": 42404,
+  "weights": {
+   "grad_loss": "1.",
+   "eq_loss": "1."
+  },
+  "hinge": [
+   0.0,
+   1.0,
+   0.0
+  ],
+  "eq_sample": null,
+  "epochs": 5000,
+  "n_steps": 0,
+  "integrator": "shear",
+  "lr_adam": 0.005,
+  "lr_sgd": 0.1,
+  "amp_momentum": 0.9,
+  "init_std": 0.0,
+  "energy_normalised": true,
+  "fault": "not used"
+ }
+}
